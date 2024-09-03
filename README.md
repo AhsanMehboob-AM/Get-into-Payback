@@ -25,20 +25,20 @@ To set up the project locally:
    git clone https://github.com/AHSAN-JEE/Get-into-Payback.git
 
 2. Navigate to the project directory:
-
+```bash
   cd payback
 
 3. Install the necessary dependencies:
-
+```bash
   composer install
   npm install
 
 4. Set up the database:
-
+```bash
   php artisan migrate
   
 5. Start the development server:
-
+```bash
   php artisan serve
   npm run dev
   
@@ -53,5 +53,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 
 
-This `README.md` is formatted to be clear and informative, providing an overview of your project, installation instructions, and more. 
+
 
