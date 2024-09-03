@@ -21,36 +21,40 @@ Payback is a web-based property investment application designed to streamline th
 To set up the project locally:
 
 1. Clone the repository:
-
-   git clone https://github.com/AHSAN-JEE/Get-into-Payback.git
-
+   ```bash
+   git clone https://github.com/yourusername/payback.git
+   ```
 2. Navigate to the project directory:
    ```bash
-    cd payback
-
-
+   cd payback
+   ```
 3. Install the necessary dependencies:
-  ```bash
+   ```bash
    composer install
    npm install
-
+   ```
 4. Set up the database:
-  ```bash
+   ```bash
    php artisan migrate
-  
+   ```
 5. Start the development server:
-  ```bash
+   ```bash
    php artisan serve
    npm run dev
-  
+   ```
+
 ## Usage
-After setting up the project, you can access the application in your browser at http://localhost:8000. The app allows you to explore real estate listings, analyze investment opportunities, and manage your investment portfolio.
+
+After setting up the project, you can access the application in your browser at `http://localhost:8000`. The app allows you to explore real estate listings, analyze investment opportunities, and manage your investment portfolio.
 
 ## Contributing
+
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
 
 
 
