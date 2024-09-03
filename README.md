@@ -27,12 +27,13 @@ To set up the project locally:
 2. Navigate to the project directory:
 ```bash
   cd payback
+```bash
 
 3. Install the necessary dependencies:
 ```bash
   composer install
   npm install
-
+```bash
 4. Set up the database:
 ```bash
   php artisan migrate
