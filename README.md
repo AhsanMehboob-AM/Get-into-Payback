@@ -25,15 +25,15 @@ To set up the project locally:
    git clone https://github.com/AHSAN-JEE/Get-into-Payback.git
 
 2. Navigate to the project directory:
-```bash
+   ```bash
   cd payback
-```bash
+
 
 3. Install the necessary dependencies:
-```bash
+  ```bash
   composer install
   npm install
-```bash
+
 4. Set up the database:
 ```bash
   php artisan migrate
