@@ -31,17 +31,17 @@ To set up the project locally:
 
 3. Install the necessary dependencies:
   ```bash
-    composer install
-    npm install
+   composer install
+   npm install
 
 4. Set up the database:
   ```bash
-    php artisan migrate
+   php artisan migrate
   
 5. Start the development server:
   ```bash
-    php artisan serve
-    npm run dev
+   php artisan serve
+   npm run dev
   
 ## Usage
 After setting up the project, you can access the application in your browser at http://localhost:8000. The app allows you to explore real estate listings, analyze investment opportunities, and manage your investment portfolio.
